@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&display=swap");
+
+:root {
+  white: #ffffff;
+  beige: #e9dfba;
+  red: #9e2a2a;
+  black: #000000;
+  side-gap: 50px;
+  page-width: 1920px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--beige);
+  color: var(--red);
+  font-family: "PT Mono", monospace;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  font-weight: 400;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Цирк — первый экран */
+.цирк h1 body > h1,
+body h1:first-child {
+  color: #9e2a2a;
+  font-family: "PT Mono", monospace;
+  font-size: 311px;
+  font-weight: 400;
+  line-height: 1;
+  margin: 0;
+  letter-spacing: -0.06em;
+}
+
+img[src*="ГЛАВ.png"] {
+  position: relative;
+  top: -250px;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+/* Общие заголовки */
+h2 {
+  position: relative;
+  margin: 0 var(--side-gap);
+  font-size: 80px;
+  line-height: 1.15;
+  text-align: center;
+  color: #9e2a2a;
+  margin-top: 150;
+  letter-spacing: -0.06em;
+}
+
+/* Стоимость билетов */
+img[src*="экран2.png"] {
+  margin-top: 308px;
+  margin-left: 143px;
+}
+/ касса/ img[src*="э2.png"] {
+  position: relative;
+  left: 148px;
+  margin-top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.стоимость-билетов h2 {
+  font-size: 80px;
+}
+
+.стоимость-билетов p {
+  font-size: 29px;
+}
+
+/* Арена */
+.арена {
+  position: relative;
+  width: 100%;
+  max-width: var(--page-width);
+  height: 1247px;
+  margin: 0 auto;
+  padding: 35px var(--side-gap);
+}
+
+.арена h2 {
+  font-size: 80px;
+}
+
+.арена p {
+  font-size: 29px;
+}
+
+/* Жанглёр */
+.жанглер {
+  position: relative;
+  width: 100%;
+  max-width: var(--page-width);
+  height: 1081px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* Билеты */
+.билеты {
+  position: relative;
+  width: 100%;
+  max-width: var(--page-width);
+  height: 869px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* Гимнасты */
+.гимнасты {
+  position: relative;
+  width: 100%;
+  max-width: var(--page-width);
+  height: 1374px;
+  argin: 0 auto;
+  overflow: hidden;
+}
+
+/* Карусель */
+.карусель {
+  position: relative;
+  width: 100%;
+  max-width: var(--page-width);
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* Звёзды  */
+.звезды {
+  display: block;
+  width: 100%;
+  max-width: var(--page-width);
+  height: auto;
+  margin: 40px auto 150px;
+}
+
+/* Футер */
+.футер {
+  position: relative;
+  width: 100%;
+  max-width: var(--page-width);
+  height: 700px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.футер p {
+  font-size: 36px;
+}
+
+.футер .имя {
+  font-size: 110px;
+  line-height: 1.12;
+}
+html,
+body {
+  background-color: #e9dfba;
+}
+.цирк {
+  background-color: #e9dfba;
+}
