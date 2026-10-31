@@ -217,10 +217,15 @@ footer img {
   .language-info {
     gap: 15px;
   }
+
+  .language-info p {
+    font-size: 17px;
   }
+}
 .screen-1 {
   margin-top: -40px;
 }
+
 
   .language-info p {
     font-size: 17px;
