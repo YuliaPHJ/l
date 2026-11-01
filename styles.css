@@ -94,14 +94,26 @@ p {
 }
 
 screen-2 > img {
-  width: 100%;
-  height: auto;
-  margin: 0 auto 35px;
+  .screen-2 {
+    text-align: center;
+    padding: 0;
+  }
 }
 
+.screen-2 {
+  text-align: center;
+  padding: 0;
+}
+
+.screen-2 > img {
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
 .screen-2 p {
   max-width: 1100px;
   margin: 40px auto;
+  padding: 0 var(--side);
 }
 
 /* ЭКРАН 3 */
